@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+
+<body>
+    <a href="https://wikipedia.org/">维基百科</a>
+
+    <a href="https://www.example.com/">
+        <img src="https://www.example.com/foo.jpg">
+    </a>
+
+    <a href="https://www.example.com" hreflang="en">示例网址</a>
+
+
+    <a href="https://www.example.com/" title="hello">示例</a>。
+
+    <p><a href="http://foo.com" target="test">foo</a></p>
+    <p><a href="http://bar.com" target="test">bar</a></p>
+
+    <a href="https://www.example.com" target="_blank">示例链接</a>
+
+    <a href="smile.jpg" type="image/jpeg">示例图片</a>
+
+    <a href="demo.txt" download>下载</a>
+
+    <!-- 如果download属性设置了值，那么这个值就是下载的文件名。 -->
+    <a href="foo.exe" download="bar.exe">点击下载</a>
+
+    <a href="mailto:contact@example.com">联系我们</a>
+
+    <a href="mailto:foo@bar.com?cc=test@test.com&subject=The%20subject&body=The%20body">发送邮件</a>
+
+    <!-- 不指定邮箱也是允许的，就像下面这样。 -->
+    <a href="mailto:">告诉朋友</a>
+
+    <a href="tel:13312345678">13312345678</a>
+
+
+    <link rel="stylesheet" type="text/css" href="theme.css">
+
+    <link href="default.css" rel="stylesheet" title="Default Style">
+    <link href="fancy.css" rel="alternate stylesheet" title="Fancy">
+    <link href="basic.css" rel="alternate stylesheet" title="Basic">
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon72.png">
+
+    <link rel="alternate" type="application/atom+xml" href="/blog/news/atom">
+
+
+    <!-- 作者信息 -->
+    <link rel="author" href="humans.txt">
+
+    <!-- 版权信息 -->
+    <link rel="license" href="copyright.html">
+
+    <!-- 另一个语言的版本 -->
+    <link rel="alternate" href="https://es.example.com/" hreflang="es">
+
+    <!-- 联系方式 -->
+    <link rel="me" href="https://google.com/profiles/someone" type="text/html">
+    <link rel="me" href="mailto:name@example.com">
+    <link rel="me" href="sms:+15035550125">
+
+    <!-- 历史资料 -->
+    <link rel="archives" href="http://example.com/archives/">
+
+    <!-- 目录 -->
+    <link rel="index" href="http://example.com/article/">
+
+    <!-- 导航 -->
+    <link rel="first" href="http://example.com/article/">
+    <link rel="last" href="http://example.com/article/?page=42">
+    <link rel="prev" href="http://example.com/article/?page=1">
+    <link rel="next" href="http://example.com/article/?page=3">
+
+
+
+    <link rel="preload" href="font.woff2" as="font" type="font/woff2" crossorigin>
+
+
+    <link rel="preload" as="style" href="async_style.css" onload="this.rel='stylesheet'">
+
+
+    <link rel="prefetch" href="https://www.example.com/">
+
+
+    <link rel="preconnect" href="https://www.example.com/">
+
+
+    <link rel="dns-prefetch" href="//example.com/">
+
+
+    <link href="print.css" rel="stylesheet" media="print">
+    <link href="mobile.css" rel="stylesheet" media="screen and (max-width: 600px)">
+
+    <link rel="preload" as="image" href="map.png" media="(max-width: 600px)">
+    <link rel="preload" as="script" href="map.js" media="(min-width: 601px)">
+
+    <script>
+        console.log('hello world');
+
+    </script>
+
+    <script type="text/javascript" src="javascript.js"></script>
+
+    <script type="module" src="main.js"></script>
+
+    <script type="module" src="main.js"></script>
+    <script nomodule src="fallback.js"></script>
+
+
+    <noscript>
+        您的浏览器不能执行 JavaScript 语言，页面无法正常显示。
+    </noscript>
+
+</body>
+
+</html>
